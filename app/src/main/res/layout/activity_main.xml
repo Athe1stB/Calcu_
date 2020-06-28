@@ -4,15 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/darker_gray"
+    android:background="@android:color/black"
     tools:context=".MainActivity">
 
     <LinearLayout
         android:layout_width="384dp"
         android:layout_height="700dp"
         android:layout_marginBottom="5dp"
-        android:background="@android:color/white"
         android:orientation="vertical"
+        android:background="@android:color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -28,6 +28,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="100dp"
+            android:background="@android:color/black"
             android:orientation="horizontal">
 
             <Button
@@ -71,6 +72,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="100dp"
+            android:background="@android:color/black"
             android:orientation="horizontal">
 
             <Button
@@ -79,6 +81,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:background="@drawable/buttons"
                 android:text="@string/_7" />
 
             <Button
@@ -87,6 +90,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:background="@drawable/buttons"
                 android:text="@string/_8" />
 
             <Button
@@ -95,6 +99,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:background="@drawable/buttons"
                 android:text="@string/_9" />
 
             <Button
@@ -110,6 +115,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="100dp"
+            android:background="@android:color/black"
             android:orientation="horizontal">
 
             <Button
@@ -118,6 +124,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:background="@drawable/buttons"
                 android:text="@string/_4" />
 
             <Button
@@ -126,6 +133,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:background="@drawable/buttons"
                 android:text="@string/_5" />
 
             <Button
@@ -133,6 +141,7 @@
                 style="@style/Widget.AppCompat.Button.Borderless"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
+                android:background="@drawable/buttons"
                 android:layout_weight="1"
                 android:text="@string/_6" />
 
@@ -149,6 +158,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="100dp"
+            android:background="@android:color/black"
             android:orientation="horizontal">
 
             <Button
@@ -157,6 +167,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:background="@drawable/buttons"
                 android:text="@string/_1" />
 
             <Button
@@ -165,6 +176,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:background="@drawable/buttons"
                 android:text="@string/_2" />
 
             <Button
@@ -173,6 +185,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:background="@drawable/buttons"
                 android:text="@string/_3" />
 
             <Button
@@ -188,14 +201,16 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:background="@android:color/black"
             android:orientation="horizontal">
 
             <Button
                 android:id="@+id/be"
                 style="@style/Widget.AppCompat.Button.Borderless"
-                android:layout_width="wrap_content"
+                android:layout_width="90dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:background="@drawable/buttons"
                 android:text="@string/exit" />
 
             <Button
@@ -204,14 +219,16 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:background="@drawable/buttons"
                 android:text="@string/_0" />
 
             <Button
-                android:id="@+id/b."
+                android:id="@+id/b12"
                 style="@style/Widget.AppCompat.Button.Borderless"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:background="@drawable/buttons"
                 android:text="@string/c_" />
 
             <Button
